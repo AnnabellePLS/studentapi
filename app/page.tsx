@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 import StudentForm from "./StudentForm"; 
-import { fetchStudents, addStudent, updateStudent, deleteStudent } from "./api/studentAPI";
+import { fetchStudents, addStudent, updateStudent, deleteStudent } from "@/lib/studentAPI";
 
 interface Student {
     _id: string;
